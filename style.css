@@ -35,6 +35,12 @@ nav {
     display: block;
   }
 
+  header p {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 100px;
+  }
+
   a:hover {
     color: #fff;
     text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
@@ -54,6 +60,9 @@ nav {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
   }
   
   img {
