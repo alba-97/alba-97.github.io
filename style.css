@@ -3,6 +3,14 @@ html, body {
     margin: 0;
 }
 
+.description {
+    display: inline;
+}
+
+.texto {
+    width: 10%;
+}
+
 nav {
     background-color: #333;
     color: #fff;
