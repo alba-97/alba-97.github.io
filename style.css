@@ -1,14 +1,12 @@
 html, body {
-    padding: 0;
+    padding-top: 20px;
     margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
 }
 
-.description {
-    display: inline;
-}
-
-.texto {
-    width: 10%;
+.header {
+  margin: 20px
 }
 
 nav {
@@ -43,12 +41,6 @@ nav {
     display: block;
   }
 
-  header p {
-    font-size: 18px;
-    line-height: 1.5;
-    max-width: 100px;
-  }
-
   a:hover {
     color: #fff;
     text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
@@ -62,37 +54,23 @@ nav {
       padding: 5px;
     }
   }
-
-  header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
   
-  }
-  
-  img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-right: 20px;
-  }
-  
-  .header-text {
+  h1 {
+    color: #333;
+    font-size: 36px;
     text-align: center;
   }
   
-  .social-icons {
-    display: flex;
+  img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
   }
   
-  .social-icons a {
-    margin-right: 10px;
-  }
-  
-  .social-icons i {
-    font-size: 24px;
-    color: #333;
+  p {
+    color: #666;
+    font-size: 18px;
+    text-align: center;
   }
