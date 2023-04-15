@@ -2,10 +2,11 @@ html, body {
     padding-top: 20px;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: rgb(99, 94, 88);
+    background-color: #f2f2f2;
 }
 
 .header {
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,11 +14,7 @@ html, body {
 
 .card {
   width: 20%;
-  border-radius: 10px;
-  background-color: #f2f2f2;
-  margin-top: 20px;
-  padding: 20px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  background-color: lightgray
 }
 
 nav {
@@ -33,6 +30,7 @@ nav {
   }
 
   ul {
+
     list-style: none;
     margin: 0;
     padding: 0;
@@ -80,7 +78,7 @@ nav {
   }
   
   p {
-    color: #000;
+    color: #666;
     font-size: 18px;
     text-align: center;
   }
