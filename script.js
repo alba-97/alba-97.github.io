@@ -1,20 +1,7 @@
-const navLinks = document.querySelectorAll('nav ul li a');
-const sections = document.querySelectorAll('section');
+document.querySelector("#scrolling-acercademi").addEventListener("click", function() {
+    document.querySelector("#acercademi").scrollIntoView();
+});
 
-window.addEventListener('scroll', () => {
-  let current = '';
-  sections.forEach(section => {
-    const sectionTop = section.offsetTop;
-    const sectionHeight = section.clientHeight;
-    if (scrollY >= (sectionTop - sectionHeight / 3)) {
-      current = section.getAttribute('id');
-    }
-  });
-  
-  navLinks.forEach(link => {
-    link.classList.remove('active');
-    if (link.getAttribute('href').includes(current)) {
-      link.classList.add('active');
-    }
-  });
+document.querySelector("#scrolling-contacto").addEventListener("click", function() {
+    document.querySelector("#contacto").scrollIntoView();
 });

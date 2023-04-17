@@ -1,84 +1,92 @@
-html, body {
-    padding-top: 20px;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+body{
+    background-color: #E4E6E7;
 }
 
-.header {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
+.barra {
+    background-color:#322A26;
+    color: #E4E6E7;
+}
+
+.tarjeta{
   align-items: center;
+  justify-content: center;
+  background-color: #322A26;
+  color: #E4E6E7;
+  border: 1px solid;
+  border-color:#322A26;
+  border-radius: 20px;
 }
 
-.card {
-  width: 20%;
-  background-color: lightgray
-}
-
-nav {
-    background-color: #333;
-    color: #fff;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    display: flex;
-    justify-content: flex-end;
+.imagen{
+    border: 1px solid;
+    border-color:#322A26;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
   }
 
-  ul {
-
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-
-  li {
-    margin: 0 10px;
-  }
-
-  a {
-    font-weight: bold;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
-    display: block;
-  }
-
-  a:hover {
-    color: #fff;
-    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
-  }
-
-  @media screen and (max-width: 600px) {
-    li {
-      margin: 0 5px;
-    }
-    a {
-      padding: 5px;
-    }
-  }
-  
-  h1 {
-    color: #333;
-    font-size: 36px;
+.contacto{
     text-align: center;
-  }
-  
-  img {
-    display: block;
+    margin-bottom: 0px;
+}
+
+.boton {
+    border: 0px;
+}
+
+.links {
+    color: #E4E6E7;
+}
+
+.links:hover {
+    cursor: pointer;
+}
+
+.parrafo{
+    text-align: center;
+}
+
+.formulario{
     margin: 0 auto;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-  }
-  
-  p {
-    color: #666;
-    font-size: 18px;
+    width: 700px;
     text-align: center;
-  }
+    background-color: #145369;
+}
+
+.fin{
+    text-align: center;
+    background-color: #29272A;
+    color: #E4E6E7;
+    padding: 10px;
+}
+
+.fotoig{
+    width: 40px;
+}
+
+.fotocel{
+    width: 40px;
+}
+
+.acerca{
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+.acercademi{
+    padding: 120px;
+}
+
+.port{
+    background-color: #308568;
+    color: #E4E6E7;
+}
+
+.boton:hover {
+    background-color: #504641
+}
+
+.boton {
+    background-color: #322A26;
+    color: #E4E6E7;
+}
