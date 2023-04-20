@@ -5,3 +5,5 @@ document.querySelector("#scrolling-acercademi").addEventListener("click", functi
 document.querySelector("#scrolling-contacto").addEventListener("click", function() {
     document.querySelector("#contacto").scrollIntoView();
 });
+
+console.log("nuevo log")
