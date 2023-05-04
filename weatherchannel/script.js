@@ -1,10 +1,9 @@
 let input = document.querySelector("input")
-let button = document.querySelector("button")
+let button = document.querySelector("#send")
 
-
-function climaCiudad() {
-    let ciudad = input.value;
-    input.value = "";
+const climaCiudad = (query) => {
+    let ciudad = query;
+    query = "";
     if (ciudad) {
         let url = "https://api.openweathermap.org/data/2.5/weather?q=" + ciudad + "&appid=fdd533266e28101881f610f2b8f1ebe1&units=metric&lang=es"
         $.getJSON(url, function (data) {
@@ -13,17 +12,17 @@ function climaCiudad() {
             document.querySelector("#descripcion").innerHTML = data.weather[0].description;
             document.querySelector("#wicon").setAttribute("src", "http://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png");
             document.querySelector(".container").style.visibility = "visible";
-            console.log(data);
+            //console.log(data);
         }).fail(function() { alert("Error de búsqueda."); })
     } else {
         alert("Ingrese una localidad.")
     }
 }
 
-button.addEventListener("click", climaCiudad)
+button.addEventListener("click", () => {climaCiudad(input.value)})
 
 input.addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
-        climaCiudad();
+        climaCiudad(input.value);
     }
 })
