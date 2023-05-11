@@ -1,5 +1,5 @@
 /* Portfolio */
-body{
+.pf-body{
     background-color: #bdcfae;
 }
 
@@ -89,20 +89,20 @@ body{
 }
 
 /* Weather Channel */
-body {
+.weatherchannel {
     font-family: "Roboto", sans-serif;
     background: #0a1f44;
     color: white;
 }
 
-h1 {
+.wc-h1 {
     font-weight: bold;
     font-size: 4rem;
     letter-spacing: 0.02em;
 }
 
-button,
-input {
+.weather-button,
+.weather-input {
   border: none;
   background: none;
   outline: none;
@@ -113,11 +113,11 @@ input {
     text-align: center;
 }
 
-ul {
+.wc-ul {
     list-style: none;
 }
 
-input {
+.weather-input {
     font-size: 2rem;
     height: 40px;
     padding: 5px 10px;
@@ -129,7 +129,7 @@ input {
     width: 75%;
 }
 
-button {
+.weather-button {
     font-size: 1rem;
     font-weight: bold;
     letter-spacing: 0.1em;
@@ -139,12 +139,12 @@ button {
     background: #ff1e42;
 }
   
-button:hover {
+.weather-button:hover {
     background: #c3112d;
     cursor: pointer;
 }
 
-.container {
+.wc-container {
     background-color: white;
     color: #1e2432;
     width: 300px;
@@ -169,12 +169,12 @@ button:hover {
     font-weight: bold;
 }
 
-sup {
+.wc-sup {
     font-weight: normal;
     font-size: 2.5rem;
 }
 
-img {
+.wc-img {
     width: 4rem;
 }
 
@@ -185,13 +185,13 @@ img {
 }
 
 /* To-do List */
-body {
+.todolist {
     text-align: center;
     background-color: darkblue;
     font-family: "Montserrat", sans-serif;
 }
 
-h1 {
+.tdl-h1 {
     color: white;
 }
 
@@ -261,12 +261,12 @@ h1 {
 }
 
 /*Color game*/
-body {
+.color-game {
     background-color: rgb(59, 59, 59);
     margin: 0;
   }
   
-  .container {
+  .color-container {
     text-align: center;
   }
   
@@ -297,7 +297,7 @@ body {
     font-size: 1.5em;
   }
   
-  h1 {
+  .color-header {
     color: white;
     background-color:#3463ad;
     text-align: center;
@@ -326,9 +326,9 @@ body {
     margin: auto;
   }
   
-  .selected {
+  .color-selected {
     background-color: #3463ad;
-    color: white;
+    color: black;
   }
   
   #reset {
@@ -354,7 +354,7 @@ body {
     -moz-transition: background-color 0.5s;
   }
   
-  button {
+  .cg-button {
     height: 100%;
     background-color: transparent;
     border: none;

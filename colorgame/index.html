@@ -7,13 +7,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The Great Guessing Game</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../style2.css">
 </head>
 
-<body>
-  <div class="container">
+<body class="color-game">
+  <div class="color-container">
     <div>
-      <h1>
+      <h1 class="color-header">
         THE GREAT
         <br>
         <span id="colorDisplay"></span>
@@ -24,10 +25,10 @@
 
     <div id="stripe">
       <div id="menu">
-        <button id="reset">New colors</button>
+        <button class="cg-button" id="reset">New colors</button>
         <span id="message"></span>
-        <button class="selected" id="easyButton">Easy</button>
-        <button id="hardButton">Hard</button>
+        <button class=" cg-button color-selected" id="easyButton">Easy</button>
+        <button class="cg-button" id="hardButton">Hard</button>
       </div>
     </div>
 

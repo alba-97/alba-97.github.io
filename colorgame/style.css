@@ -34,7 +34,7 @@ body {
     font-size: 1.5em;
   }
   
-  h1 {
+  .color-header {
     color: white;
     background-color:#3463ad;
     text-align: center;
@@ -91,7 +91,7 @@ body {
     -moz-transition: background-color 0.5s;
   }
   
-  button {
+  .cg-button {
     height: 100%;
     background-color: transparent;
     border: none;
