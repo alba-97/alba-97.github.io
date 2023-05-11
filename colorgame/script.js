@@ -38,7 +38,7 @@ function generateRandomColors(n) {
                     squares[j].style.backgroundColor = colors[index];
                     squares[j].style.opacity = "1";
                 }
-                document.querySelector(".color-header").style.backgroundColor = colors[index];
+                document.querySelector("h1").style.backgroundColor = colors[index];
                 document.querySelector("#reset").innerHTML = "Play again";
             } else {
                 this.style.opacity = "0";
@@ -49,15 +49,15 @@ function generateRandomColors(n) {
 }
 
 document.querySelector("#easyButton").addEventListener("click", function () {
-    document.querySelector("#hardButton").classList.toggle("color-selected");
-    this.classList.toggle("color-selected");
+    document.querySelector("#hardButton").classList.toggle("selected");
+    this.classList.toggle("selected");
     n = 3;
     generateRandomColors(n);
 });
 
 document.querySelector("#hardButton").addEventListener("click", function () {
-    document.querySelector("#easyButton").classList.toggle("color-selected");
-    this.classList.toggle("color-selected");
+    document.querySelector("#easyButton").classList.toggle("selected");
+    this.classList.toggle("selected");
     n = 6;
     generateRandomColors(n);
 });
