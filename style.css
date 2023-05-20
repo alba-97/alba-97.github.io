@@ -7,6 +7,11 @@ body{
     color: #E4E6E7;
 }
 
+.square {
+    background-color:#0a0908;
+    color: #bdcfae;
+}
+
 .tarjeta{
   align-items: center;
   justify-content: center;
