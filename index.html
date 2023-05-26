@@ -1,156 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Portfolio </title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <div class="container-fluid">
-    <!-- BARRA DE NAVEGACION -->
-    <div class="row">
-      <nav class="navbar navbar-dark bg-light navbar-expand-lg py-0">
-        <div class="container-fluid barra">
-          <a class="navbar-brand links" href="#">BASILIO ALVAREZ</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link links" aria-current="page">Inicio</a>
-              <a class="nav-link links" id="scrolling-acercademi">Acerca de mi</a>
-              <a class="nav-link links" id="scrolling-contacto">Contacto</a>
-              <div class="dropdown">
-                <a class="nav-link links dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">Proyectos</a>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <li><a class="dropdown-item" href="colorgame.html">Color Game</a></li>
-                  <li><a class="dropdown-item" href="todolist.html">To-do List</a></li>
-                  <li><a class="dropdown-item" href="weatherchannel.html">Weather Channel</a></li>
-                </ul>
+  <body>
+    <div class="container-fluid">
+      <!-- BARRA DE NAVEGACION -->
+      <div class="row">
+        <nav class="navbar navbar-dark bg-light navbar-expand-lg py-0">
+          <div class="container-fluid barra">
+            <a class="navbar-brand links" href="#">BASILIO ALVAREZ</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link links" aria-current="page">Inicio</a>
+                <a class="nav-link links" id="scrolling-acercademi"
+                  >Acerca de mi</a
+                >
+                <a class="nav-link links" id="scrolling-contacto">Contacto</a>
+                <div class="dropdown">
+                  <a
+                    class="nav-link links dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    >Proyectos</a
+                  >
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="colorgame.html"
+                        >Color Game</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="todolist.html"
+                        >To-do List</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="weatherchannel.html"
+                        >Weather Channel</a
+                      >
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </nav>
-    </div>
-
-    <!-- TARJETA -->
-    <div class="row justify-content-center">
-      <div class="col-6 col-sm-4 col-md-3 my-4 px-0 text-center tarjeta">
-        <img src="img/profile.jpg" class="card-img-top imagen" alt="...">
-        <h4 class="my-3 texto">BASILIO ALVAREZ</h4>
+        </nav>
       </div>
-    </div>
 
-    <!-- PORTFOLIO -->
-    <div class="row justify-content-center text-center py-4 port">
-      <h1 class="pt-4">PROYECTOS</h1>
-      <div class="row my-4">
-        <div class="col-4">
-          <h2 class="proyectos pb-4">COLOR<br>GAME</h3>
-            <a href="colorgame.html"><img class="img-fluid" src="img/colorgame.png" alt=""></a>
-        </div>
-        <div class="col-4">
-          <h2 class="proyectos pb-4">TO-DO<br>LIST</h3>
-            <a href="todolist.html"><img class="img-fluid" src="img/todolist.png" alt=""></a>
-        </div>
-        <div class="col-4">
-          <h2 class="proyectos pb-4">WEATHER<br>CHANNEL</h3>
-            <a href="weatherchannel.html"><img class="img-fluid" src="img/weatherchannel.png" alt=""></a>
+      <!-- TARJETA -->
+      <div class="row justify-content-center">
+        <div class="col-6 col-sm-4 col-md-3 my-4 px-0 text-center tarjeta">
+          <img src="img/profile.jpg" class="card-img-top imagen" alt="..." />
+          <h4 class="my-3 texto">BASILIO ALVAREZ</h4>
         </div>
       </div>
-    </div>
 
-    <!-- ACERCA DE -->
-    <div class="row text-center py-5 px-3" id="acercademi">
-      <div class="col-6 py-0 my-0 border border-dark">
-        <h3 class="py-3">QUIEN SOY</h3>
-        <p class="parrafo">¡Hola! Me llamo Basilio</p>
-        <p class="parrafo">Soy estudiante en Análisis de Sistemas</p>
-        <p class="parrafo">Actualmente hago desarrollo web</p>
-        <p class="parrafo">Arriba podés ver mis proyectos</p>
-      </div>
-
-      <div class="col-6 square py-0 my-0">
-        <h3 class="py-3">EDUCACION</h3>
-        <p class="parrafo">Análisis de Sistemas - ISFT n° 132 (cursando 3er año)</p>
-        <p class="parrafo">Curso introductorio de JavaScript - Plataforma 5</p>
-        <p class="parrafo">Curso de desarrollo web en WordPress - CFP n° 401</p>
-        <p class="parrafo">Fundamentos del diseño - Sena Sofia Plus</p>
-      </div>
-
-      <div class="col-6 square">
-        <h3 class="py-4">INFO PERSONAL</h3>
-        <p class="parrafo">CUIL: 20-39981390-6</p>
-        <p class="parrafo">Estado civil: soltero</p>
-        <p class="parrafo">Email: alvarezbasilio97@gmail.com</p>
-        <p class="parrafo">Lugar y fecha de nacimiento: 2 de enero de 1997 (Junín)</p>
-      </div>
-      <div class="col-6 my-0 py-0 border border-dark">
-        <h3 class="py-3">Conocimientos</h3>
-        <h4 class="my-1">Avanzado</h5>
-        <p class="parrafo py-0 my-0">HTML, CSS, JavaScript y Python</p>
-        
-        <p class="parrafo py-0 my-0">Adobe Photoshop</p>
-        <p class="parrafo py-0 my-0">Inglés</p>
-        <h4 class="my-1">Intermedio</h5>
-        <p class="parrafo py-0 my-0">Bootstrap, Canvas, Phaser.js</p>
-        <p class="parrafo py-0 my-0">Node.js, MySQL</p>
-        
-      </div>
-    </div>
-
-    <!-- CONTACTO -->
-    <div class="row justify-content-center py-4 port" id="contacto">
-      <h3 class="my-3 contacto">CONTACTO</h3>
-      <div class="col-8 mx-5 my-4">
-        <label for="exampleFormControlInput1" class="form-label">CORREO ELECTRONICO</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
-      </div>
-      <div class="col-8 mx-5 my-4">
-        <label for="exampleFormControlTextarea1" class="form-label">MENSAJE</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tu mensaje"></textarea>
-      </div>
-      <div class="mx-5 my-4 w-25">
-        <button class="border-0 rounded w-100 boton" type="submit">Enviar</button>
-      </div>
-    </div>
-
-    <!-- REDES -->
-    <div class="row justify-content-center text-center acerca">
-      <div class="row">
-        <div class="col-sm-6">
-          <p class="parrafo">Chacabuco, Buenos Aires</p>
-        </div>
-        <div class="col">
-          <a target="_blank" href="https://www.linkedin.com/in/alvarezbasilio97"><img class="social-links"
-              src="icons/linkedin.png" alt="linkedin"></a>
-          <a target="_blank" href="https://www.github.com/alba-97/"><img class="social-links" src="icons/github.png"
-              alt="github"></a>
-          <a target="_blank" href="https://www.instagram.com/basilioalvarez97/"><img class="social-links"
-              src="icons/instagram.png" alt="instagram"></a>
-          <a target="_blank" href="https://wa.link/8ia9s3"><img class="social-links" src="icons/whatsapp.png"
-              alt="whatsapp"></a>
-          <a href="mailto:alvarezbasilio97@gmail.com"><img class="social-links" src="icons/email.png" alt="email"></a>
+      <!-- PORTFOLIO -->
+      <div class="row justify-content-center text-center py-4 port">
+        <h1 class="pt-4">PROYECTOS</h1>
+        <div class="row my-4">
+          <div class="col-4">
+            <h2 class="proyectos pb-4">COLOR<br />GAME</h2>
+            <a href="colorgame.html"
+              ><img class="img-fluid" src="img/colorgame.png" alt=""
+            /></a>
+          </div>
+          <div class="col-4">
+            <h2 class="proyectos pb-4">TO-DO<br />LIST</h2>
+            <a href="todolist.html"
+              ><img class="img-fluid" src="img/todolist.png" alt=""
+            /></a>
+          </div>
+          <div class="col-4">
+            <h2 class="proyectos pb-4">WEATHER<br />CHANNEL</h2>
+            <a href="weatherchannel.html"
+              ><img class="img-fluid" src="img/weatherchannel.png" alt=""
+            /></a>
+          </div>
         </div>
       </div>
+
+      <!-- ACERCA DE -->
+      <div class="row text-center py-5 px-3" id="acercademi">
+        <div class="col-6 square2 py-0 my-0 border border-dark">
+          <h3 class="py-3">QUIEN SOY</h3>
+          <p class="parrafo">¡Hola! Me llamo Basilio</p>
+          <p class="parrafo">Soy estudiante en Análisis de Sistemas</p>
+          <p class="parrafo">Actualmente hago desarrollo web</p>
+          <p class="parrafo">Arriba podés ver mis proyectos</p>
+        </div>
+
+        <div class="col-6 square py-0 my-0">
+          <h3 class="py-3">EDUCACION</h3>
+          <p class="parrafo">
+            Análisis de Sistemas - ISFT n° 132 (cursando 3er año)
+          </p>
+          <p class="parrafo">
+            Curso introductorio de JavaScript - Plataforma 5
+          </p>
+          <p class="parrafo">
+            Curso de desarrollo web en WordPress - CFP n° 401
+          </p>
+          <p class="parrafo">Fundamentos del diseño - Sena Sofia Plus</p>
+        </div>
+
+        <div class="col-6 square">
+          <h3 class="py-3">INFO PERSONAL</h3>
+          <p class="parrafo">CUIL: 20-39981390-6</p>
+          <p class="parrafo">Estado civil: soltero</p>
+          <p class="parrafo">Email: alvarezbasilio97@gmail.com</p>
+          <p class="parrafo">Fecha de nacimiento: 2 de enero de 1997</p>
+          <p class="parrafo">Ciudad natal: Junín, Buenos Aires</p>
+        </div>
+
+        <div class="col-6 pb-3 square2 my-0 py-0 border border-dark">
+          <h3 class="py-3">CONOCIMIENTOS</h3>
+          <h4 class="my-1">Avanzado</h4>
+          <p class="parrafo py-0 my-0">HTML, CSS, JavaScript y Python</p>
+
+          <p class="parrafo py-0 my-0">Adobe Photoshop</p>
+          <p class="parrafo py-0 my-0">Inglés</p>
+          <h4 class="my-1">Intermedio</h4>
+          <p class="parrafo py-0 my-0">Bootstrap, Canvas, Phaser.js</p>
+          <p class="parrafo py-0 my-0">Node.js, MySQL</p>
+        </div>
+      </div>
+
+      <!-- CONTACTO -->
+      <div class="row justify-content-center py-4 port" id="contacto">
+        <h3 class="my-3 contacto">CONTACTO</h3>
+        <div class="col-8 mx-5 my-4">
+          <label for="exampleFormControlInput1" class="form-label"
+            >CORREO ELECTRONICO</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="Email"
+          />
+        </div>
+        <div class="col-8 mx-5 my-4">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >MENSAJE</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+            placeholder="Tu mensaje"
+          ></textarea>
+        </div>
+        <div class="mx-5 my-4 w-25">
+          <button class="border-0 rounded w-100 boton" type="submit">
+            Enviar
+          </button>
+        </div>
+      </div>
     </div>
-  </div>
 
-  <!-- FOOTER -->
-  <footer class="fin">
-    © Derechos Reservados 2022-2023
-  </footer>
+    <!-- FOOTER -->
+    <footer class="fin">
+      <div class="row justify-content-center text-center acerca">
+        <div class="row">
+          <div class="col-sm-6">
+            <p class="parrafo">Chacabuco, Buenos Aires</p>
+          </div>
+          <div class="col">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/alvarezbasilio97"
+              ><img
+                class="social-links"
+                src="icons/linkedin.png"
+                alt="linkedin"
+            /></a>
+            <a target="_blank" href="https://www.github.com/alba-97/"
+              ><img class="social-links" src="icons/github.png" alt="github"
+            /></a>
+            <a
+              target="_blank"
+              href="https://www.instagram.com/basilioalvarez97/"
+              ><img
+                class="social-links"
+                src="icons/instagram.png"
+                alt="instagram"
+            /></a>
+            <a target="_blank" href="https://wa.link/8ia9s3"
+              ><img
+                class="social-links"
+                src="icons/whatsapp.png"
+                alt="whatsapp"
+            /></a>
+            <a href="mailto:alvarezbasilio97@gmail.com"
+              ><img class="social-links" src="icons/email.png" alt="email"
+            /></a>
+          </div>
+        </div>
+      </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="script.js"></script>
-</body>
+      © Derechos Reservados 2022-2023
+    </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>

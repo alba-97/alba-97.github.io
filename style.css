@@ -1,93 +1,97 @@
-body{
-    background-color: #bdcfae;
+body {
+  background-color: #bdcfae;
 }
 
 .barra {
-    background-color:#13100f;
-    color: #E4E6E7;
+  background-color: #13100f;
+  color: #e4e6e7;
 }
 
 .square {
-    background-color:#0a0908;
-    color: #bdcfae;
+  background-color: #0a0908;
+  color: #e4e6e7;
 }
 
-.tarjeta{
+.square2 {
+  background-color: #f5f2d0;
+}
+
+.tarjeta {
   align-items: center;
   justify-content: center;
   background-color: #13100f;
-  color: #E4E6E7;
+  color: #e4e6e7;
   border: 1px solid;
-  border-color:#322A26;
+  border-color: #322a26;
   border-radius: 20px;
 }
 
-.imagen{
-    border: 1px solid;
-    border-color:#322A26;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-  }
+.imagen {
+  border: 1px solid;
+  border-color: #322a26;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
 
-.contacto{
-    text-align: center;
-    margin-bottom: 0px;
+.contacto {
+  text-align: center;
+  margin-bottom: 0px;
 }
 
 .boton {
-    border: 0px;
+  border: 0px;
 }
 
 .links {
-    color: #E4E6E7;
+  color: #e4e6e7;
 }
 
 .links:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-.parrafo{
-    text-align: center;
-    font-size: 1.25em
+.parrafo {
+  text-align: center;
+  font-size: 1.25em;
 }
 
-.formulario{
-    margin: 0 auto;
-    width: 700px;
-    text-align: center;
+.formulario {
+  margin: 0 auto;
+  width: 700px;
+  text-align: center;
 }
 
-.fin{
-    text-align: center;
-    background-color: #13100f;
-    color: #E4E6E7;
-    padding: 10px;
+.fin {
+  text-align: center;
+  background-color: #13100f;
+  color: #e4e6e7;
 }
 
 .social-links {
-    width: 40px;
+  width: 40px;
 }
 
-.acerca{
-    text-align: center;
-    padding: 20px;
-    margin-top: 0px;
+.acerca {
+  text-align: center;
+  padding: 20px;
+  background-color: #e4e6e7;
+  color: #13100f;
 }
 
-.acercademi{
-    padding: 120px;
+.acercademi {
+  padding: 120px;
 }
 
-.port{
-    background-color: #7e592a;
-    color: #E4E6E7;
+.port {
+  background-color: #7e592a;
+  color: #e4e6e7;
 }
 
 .boton:hover {
-    background-color: #504641
+  background-color: #221c1a;
 }
 
 .boton {
-    background-color: #13100f;
-    color: #E4E6E7;
+  background-color: #13100f;
+  color: #e4e6e7;
 }
